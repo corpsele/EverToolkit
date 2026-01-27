@@ -1,0 +1,17 @@
+/*
+  Localizable.strings
+  AnyToolkit
+
+  Created by corpsele_n on 2026/1/26.
+  
+*/
+
+"home_tab_title" = "Home";
+"post_progress_title" = "Loading...";
+"go_to_login" = "Login";
+"explor_tab_title" = "Explorer";
+"note_tab_title" = "Note";
+"splash_welcome_back" = "Welcome Back";
+"guide_welcome_title" = "Welcome AnyToolkit";
+"guide_tip_title" = "It is sample of guide";
+"guide_button_begin" = "Begin";

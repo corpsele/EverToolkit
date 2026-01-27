@@ -67,6 +67,7 @@ struct PostView: View {
             /// 首次本地加载
             if vm.posts.isEmpty {
                 vm.loadFromLocal()
+                
             }
         }
 

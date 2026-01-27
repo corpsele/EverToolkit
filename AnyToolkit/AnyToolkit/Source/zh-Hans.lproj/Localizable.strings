@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  AnyToolkit
+
+  Created by corpsele_n on 2026/1/26.
+  
+*/
+
+"home_tab_title" = "首页";
+"post_progress_title" = "加载中...";
+"go_to_login" = "去登录";
+"explor_tab_title" = "发现";
+"note_tab_title" = "文案";
+"splash_welcome_back" = "欢迎回来";
+"guide_welcome_title" = "欢迎使用 AnyToolkit";
+"guide_tip_title" = "这是一个引导页示例";
+"guide_button_begin" = "开始使用";
