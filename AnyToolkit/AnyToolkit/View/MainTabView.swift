@@ -9,7 +9,7 @@ import SwiftUI
 
 /// Tab分类
 enum TabEnum {
-    case home, explor, note, profile
+    case home, explore, note, profile
 }
 
 /// 主Tab
@@ -20,58 +20,26 @@ struct MainTabView: View {
         TabView(selection: $selectedTab) {
             HomeView(selectedTab: $selectedTab)
                 .tabItem {
-                    
+                    Label("home_tab_title", systemImage: "house.fill")
                 }
-                .tag(0)
+                .tag(TabEnum.home)
+            ExploreView(selectedTab: $selectedTab)
+                .tabItem {
+                    Label("explore_tab_title", systemImage: "safari.fill")
+                }
+                .tag(TabEnum.explore)
+            NoteView(selectedTab: $selectedTab)
+                .tabItem {
+                    Label("note_tab_title", systemImage: "bell.fill")
+                }
+                .tag(TabEnum.note)
+            ProfileView(selectedTab: $selectedTab)
+                .tabItem {
+                    Label("profile_tab_title", systemImage: "person.fill")
+                }
+                .tag(TabEnum.profile)
         }
     }
     
 }
 
-
-/// 主界面
-struct HomeView: View {
-    @Binding var selectedTab: TabEnum
-    var body: some View {
-        NavigationView {
-            VStack(spacing: 20) {
-                Image(systemName: "house.fill")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .foregroundColor(.blue)
-                Text("home_tab_title")
-                    .font(.title2)
-                Button("go_to_login") {
-                    selectedTab = .profile
-                }
-                .padding()
-                .buttonStyle(.borderless)
-            }
-            .navigationTitle(Text("home_tab_title"))
-        }
-    }
-}
-
-
-struct ExplorerView: View {
-    @Binding var selectedTab: TabEnum
-    
-    var body: some View {
-        NavigationView {
-            VStack {
-                EmptyView()
-                    
-            }
-        }
-        .navigationTitle("explor_tab_title")
-    }
-}
-
-struct NoteView: View {
-    var body: some View {
-        NavigationView {
-            
-        }
-        .navigationTitle("")
-    }
-}

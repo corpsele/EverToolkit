@@ -9,8 +9,9 @@
 "home_tab_title" = "首页";
 "post_progress_title" = "加载中...";
 "go_to_login" = "去登录";
-"explor_tab_title" = "发现";
+"explore_tab_title" = "发现";
 "note_tab_title" = "文案";
+"profile_tab_title" = "我的";
 "splash_welcome_back" = "欢迎回来";
 "guide_welcome_title" = "欢迎使用 AnyToolkit";
 "guide_tip_title" = "这是一个引导页示例";

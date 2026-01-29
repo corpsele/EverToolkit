@@ -29,8 +29,9 @@ struct AnyToolkitApp: App {
                 }
             }
             else{
-                PostView()
-                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+//                PostView()
+//                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                MainTabView()
             }
             
         }
