@@ -62,3 +62,7 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 .DS_Store
 AnyToolkit/AnyToolkit.xcodeproj/xcuserdata
+AnyToolKit/AnyToolkit/Third/AdvancedList/
+AnyToolkit/AnyToolkit/Third/ListPagination/
+AnyToolkit/AnyToolkit/Third/SimpleUIList/
+AnyToolkit/AnyToolkit.xcodeproj/project.xcworkspace/xcshareddata/

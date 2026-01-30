@@ -26,9 +26,7 @@ struct ProfileView: View {
         NavigationView {
             
             ZStack {
-                
-                    
-                
+                viewForm()
             }
             .navigationTitle("profile_tab_title")
             .navigationBarTitleDisplayMode(.inline)

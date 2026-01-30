@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import SwiftUIIntrospect
+import SimpleUIList
 
 struct PostView: View {
     @StateObject private var vm = PostVM()
@@ -16,34 +18,21 @@ struct PostView: View {
     @AppStorage("selectedTheme") private var selectedTheme: String = Theme.light
         .rawValue
     
+    @State private var listState: ListState = .items
+    
+    init() {
+        UITableView.appearance().backgroundColor = .clear
+    }
+    
     var body: some View {
         NavigationView {
             ZStack {
                 theme.background
-                    .ignoresSafeArea(.all)
-                List {
-                    ForEach(vm.posts) { post in
-                        VStack(alignment: .leading, spacing: 6) {
-                            Text(post.title)
-                                .font(.headline)
-                                .foregroundColor(.primary)
-                            Text(post.body)
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                                .lineLimit(2)
-                        }
-                        .padding(.vertical, 4)
-//                        .background(theme.background)
-                    }
-                    .onDelete { indexSet in
-                        for index in indexSet {
-                            withAnimation {
-                                vm.delete(post: vm.posts[index])
-                            }
-                        }
-                    }
-                }
-                .background(theme.background)
+//                    .ignoresSafeArea(.all)
+                
+//                viewSimpleList()
+                viewList()
+                
                 if vm.isLoading {
                     ProgressView("加载中...")
                         .padding()
@@ -54,6 +43,7 @@ struct PostView: View {
                 }
             }
             .background(theme.background)
+            
             .navigationTitle("文章列表")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -61,6 +51,7 @@ struct PostView: View {
                         vm.loadFromLocal()
                     }, label: {
                         Label("本地", systemImage: "tray.and.arrow.down")
+                            .foregroundColor(theme.primaryText)
                     })
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
@@ -68,18 +59,29 @@ struct PostView: View {
                         vm.fetchAndSavePosts()
                     } label: {
                         Label("网络", systemImage: "icloud.and.arrow.down")
+                            .foregroundColor(theme.secondaryText)
                     }
 
                 }
             }
         }
+        .background(theme.background)
+//        .ignoresSafeArea()
         .onAppear {
-            
+//            UINavigationBar.appearance().backgroundColor = .clear
+            UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(theme.primaryText)]
+            UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(theme.primaryText)]
+            UITableView.appearance().backgroundColor = .clear
             /// 首次本地加载
             if vm.posts.isEmpty {
                 vm.loadFromLocal()
                 
             }
+        }
+        .onDisappear {
+            UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(theme.primaryText)]
+            UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(theme.primaryText)]
+            UITableView.appearance().backgroundColor = .systemGroupedBackground
         }
 
         .alert(item: Binding<ItemError?>(
@@ -93,6 +95,78 @@ struct PostView: View {
             Alert(title: Text("提示"), message: Text(item.message), dismissButton: .default(Text("确定")))
         }
         
+    }
+    
+    private func viewSimpleList () -> some View {
+        return SimpleUIList(vm.posts) { post in
+            VStack(alignment: .leading, spacing: 6) {
+                Text(post.title)
+                    .font(.headline)
+                    .foregroundColor(theme.primaryText)
+                Text(post.body)
+                    .font(.subheadline)
+                    .foregroundColor(theme.secondaryText)
+                    .lineLimit(2)
+            }
+            .padding(.vertical, 4)
+        }
+        .background(theme.background)
+    }
+    
+    private func viewAdvanceList() -> some View {
+        return AdvancedList(vm.posts, content: { post in
+            VStack(alignment: .leading, spacing: 6) {
+                Text(post.title)
+                    .font(.headline)
+                    .foregroundColor(.primary)
+                Text(post.body)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    .lineLimit(2)
+            }
+            .padding(.vertical, 4)
+        }, listState: listState, emptyStateView: {
+            Text("No Data")
+        }, errorStateView: { error in
+            Text(error.localizedDescription)
+                    .lineLimit(nil)
+        }, loadingStateView: {
+            
+        })
+        .background(theme.background)
+    }
+    
+    /// MARK: 系统list
+    private func viewList() -> some View {
+        return ZStack {
+            theme.background
+                .ignoresSafeArea()
+            List {
+                ForEach(vm.posts) { post in
+//                    VStack(alignment: .leading, spacing: 6) {
+                        Text(post.title)
+                            .font(.headline)
+                            .foregroundColor(theme.primaryText)
+                            .listRowBackground(theme.background)
+                        Text(post.body)
+                            .font(.subheadline)
+                            .foregroundColor(theme.secondaryText)
+                            .lineLimit(2)
+                            .listRowBackground(theme.background)
+//                    }
+                    .background(theme.background)
+                    .padding(.vertical, 4)
+                }
+                .onDelete { indexSet in
+                    for index in indexSet {
+                        withAnimation {
+                            vm.delete(post: vm.posts[index])
+                        }
+                    }
+                }
+            }
+            .listStyle(.plain)
+        }
     }
 }
 

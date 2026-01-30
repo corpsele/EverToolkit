@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 7556EA132F2C561F002DE73A /* SwiftUIIntrospect */; };
+		7556EA5A2F2C79B5002DE73A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7556EA432F2C762F002DE73A /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		75DEC25E2F25BF5F00EBA1AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7556EA402F2C762F002DE73A /* StoreKitTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKitTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/StoreKitTest.framework; sourceTree = DEVELOPER_DIR; };
+		7556EA412F2C762F002DE73A /* _Testing_Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = _Testing_Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/_Testing_Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7556EA422F2C762F002DE73A /* Testing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Testing.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/Testing.framework; sourceTree = DEVELOPER_DIR; };
+		7556EA432F2C762F002DE73A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		75DEC24B2F25BF5E00EBA1AC /* AnyToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DEC25D2F25BF5F00EBA1AC /* AnyToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DEC2672F25BF5F00EBA1AC /* AnyToolkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyToolkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */,
+				7556EA5A2F2C79B5002DE73A /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7556EA3F2F2C762F002DE73A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7556EA412F2C762F002DE73A /* _Testing_Foundation.framework */,
+				7556EA402F2C762F002DE73A /* StoreKitTest.framework */,
+				7556EA422F2C762F002DE73A /* Testing.framework */,
+				7556EA432F2C762F002DE73A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75DEC2422F25BF5E00EBA1AC = {
 			isa = PBXGroup;
 			children = (
 				75DEC24D2F25BF5E00EBA1AC /* AnyToolkit */,
 				75DEC2602F25BF5F00EBA1AC /* AnyToolkitTests */,
 				75DEC26A2F25BF5F00EBA1AC /* AnyToolkitUITests */,
+				7556EA3F2F2C762F002DE73A /* Frameworks */,
 				75DEC24C2F25BF5E00EBA1AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,6 +148,7 @@
 			);
 			name = AnyToolkit;
 			packageProductDependencies = (
+				7556EA132F2C561F002DE73A /* SwiftUIIntrospect */,
 			);
 			productName = AnyToolkit;
 			productReference = 75DEC24B2F25BF5E00EBA1AC /* AnyToolkit.app */;
@@ -208,6 +232,9 @@
 			);
 			mainGroup = 75DEC2422F25BF5E00EBA1AC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7556EA122F2C561F002DE73A /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 75DEC24C2F25BF5E00EBA1AC /* Products */;
 			projectDirPath = "";
@@ -595,6 +622,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7556EA122F2C561F002DE73A /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/swiftui-introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 26.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7556EA132F2C561F002DE73A /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7556EA122F2C561F002DE73A /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = SwiftUIIntrospect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 75DEC2432F25BF5E00EBA1AC /* Project object */;
 }
