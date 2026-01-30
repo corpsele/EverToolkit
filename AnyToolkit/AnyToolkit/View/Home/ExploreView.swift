@@ -13,7 +13,7 @@ struct ExploreView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Color(.systemBackground)
+                Color(.darkGray)
                     .ignoresSafeArea()
                     
             }

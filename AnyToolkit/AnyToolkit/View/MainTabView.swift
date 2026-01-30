@@ -16,7 +16,14 @@ enum TabEnum {
 struct MainTabView: View {
     @State private var selectedTab: TabEnum = .home
     
+    @AppStorage("selectedTheme") private var selectedTheme: String = Theme.light.rawValue
+    
+    private var currentTheme: Theme {
+        Theme(rawValue: selectedTheme) ?? .light
+    }
+    
     var body: some View {
+        /// 当前主题注入到整个视图树
         TabView(selection: $selectedTab) {
             HomeView(selectedTab: $selectedTab)
                 .tabItem {
@@ -39,6 +46,8 @@ struct MainTabView: View {
                 }
                 .tag(TabEnum.profile)
         }
+        /// 通过环境值传入当前主题
+        .theme(currentTheme)
     }
     
 }

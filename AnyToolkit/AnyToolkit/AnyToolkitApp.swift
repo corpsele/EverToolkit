@@ -10,11 +10,16 @@ import CoreData
 
 @main
 struct AnyToolkitApp: App {
-    let persistenceController = PersistenceController.shared
     /// 控制splash
     @State private var isShowSplash = true
     /// 控制引导页
     @AppStorage("hasGuided") private var hasGuided = false
+    /// 存储当前主题的rawValue 默认为light
+    @AppStorage("selectedTheme") private var selectedTheme: String = Theme.light.rawValue
+    
+    init() {
+        
+    }
 
     var body: some Scene {
         WindowGroup {

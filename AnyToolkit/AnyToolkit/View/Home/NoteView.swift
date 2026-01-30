@@ -6,15 +6,18 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct NoteView: View {
     @Binding var selectedTab: TabEnum
+    /// coredata数据
+    let persistenceController = PersistenceController.shared
     
     var body: some View {
         NavigationView {
             VStack {
-                Color(.darkGray)
-                    .ignoresSafeArea()
+                PostView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
             }
         }
         .navigationTitle("note_tab_title")

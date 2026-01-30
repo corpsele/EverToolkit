@@ -11,9 +11,16 @@ struct PostView: View {
     @StateObject private var vm = PostVM()
     /// 提示框
     @State private var isShowError = false
+    
+    @Environment(\.theme) private var theme
+    @AppStorage("selectedTheme") private var selectedTheme: String = Theme.light
+        .rawValue
+    
     var body: some View {
         NavigationView {
             ZStack {
+                theme.background
+                    .ignoresSafeArea(.all)
                 List {
                     ForEach(vm.posts) { post in
                         VStack(alignment: .leading, spacing: 6) {
@@ -26,6 +33,7 @@ struct PostView: View {
                                 .lineLimit(2)
                         }
                         .padding(.vertical, 4)
+//                        .background(theme.background)
                     }
                     .onDelete { indexSet in
                         for index in indexSet {
@@ -35,6 +43,7 @@ struct PostView: View {
                         }
                     }
                 }
+                .background(theme.background)
                 if vm.isLoading {
                     ProgressView("加载中...")
                         .padding()
@@ -44,6 +53,7 @@ struct PostView: View {
                         .padding()
                 }
             }
+            .background(theme.background)
             .navigationTitle("文章列表")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -64,6 +74,7 @@ struct PostView: View {
             }
         }
         .onAppear {
+            
             /// 首次本地加载
             if vm.posts.isEmpty {
                 vm.loadFromLocal()
