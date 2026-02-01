@@ -21,4 +21,11 @@ extension View {
             self.background(color)
         }
     }
+    
+    /// 动态修改NavigationTitle颜色
+    /// - Parameter color: 颜色值
+    /// - Returns: View
+    func navigationTitleColor(_ color: Binding<Color>) -> some View {
+        self.modifier(NavigationTitleColorModifier(color: color))
+    }
 }

@@ -6,27 +6,108 @@
 //
 
 import SwiftUI
+import SwiftUIIntrospect
 
 /// 主界面
 struct HomeView: View {
     @Binding var selectedTab: TabEnum
-    
+
+    @Environment(\.theme) private var theme
+    @AppStorage("selectedTheme") private var selectedTheme: String = Theme.light
+        .rawValue
+
+    private var currentTheme: Theme {
+        Theme(rawValue: selectedTheme) ?? .light
+    }
+
+    @StateObject var naviTitleColorManager = NavigationTitleColorManager()
+
+    @State var naviTitleColor: Color = .black
+
     var body: some View {
+
         NavigationView {
-            VStack(spacing: 20) {
-                Image(systemName: "house.fill")
-                    .resizable()
-                    .frame(width: 60, height: 60)
-                    .foregroundColor(.blue)
-                Text("home_tab_title")
-                    .font(.title2)
-                Button("go_to_login") {
-                    selectedTab = .profile
+            ZStack {
+                theme.background
+                    .ignoresSafeArea()
+                ZStack {
+                    
+                    List {
+                        VStack(alignment: .center, spacing: 20) {
+                            Image(systemName: "house.fill")
+                                .resizable()
+                                .frame(width: 60, height: 60)
+                                .foregroundColor(theme.acent)
+                            Text("home_tab_title")
+                                .font(.title2)
+                            Button("guide_welcome_title") {
+                                selectedTab = .profile
+                            }
+                            .buttonStyle(.borderless)
+                        }
+                        
+                        // alignment center
+                        .frame(
+                            maxWidth: .infinity,
+                            maxHeight: .infinity,
+                            alignment: .center
+                        )
+                        .background(Color.white)
+                        .padding()
+//                        .clipShape(RoundedRectangle(cornerRadius: 15))
+//                        .shadow(radius: 5)
+                        // 1. 盖上一层圆角矩形边框
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 15)
+                                .stroke(Color.blue, lineWidth: 2) // 描边颜色和宽度
+                        )
+                        .padding()
+                        .listRowBackground(theme.background)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .listStyle(.plain)
                 }
-                .padding()
-                .buttonStyle(.borderless)
+                
+                
             }
-            .navigationTitle(Text("home_tab_title"))
+            .background(theme.background)
+            .navigationBarTitle("home_tab_title", displayMode: .inline)
+            .toolbar {
+                //            ToolbarItem(placement: .title) {
+                //                Text("home_tab_title")
+                //                    .foregroundColor(.black)
+                //            }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        selectedTab = .profile
+                    } label: {
+                        Text("go_to_login")
+                            .foregroundColor(theme.primaryText)
+                    }
+                    .frame(width: 100, height: 50)
+                }
+                
+            }
         }
+        .navigationTitleColor($naviTitleColor)
+        .onAppear {
+            naviTitleColor = theme.primaryText
+            UITableView.appearance().backgroundColor = .clear
+            UITableView.appearance().isScrollEnabled = false
+            //            UINavigationBar.appearance().largeTitleTextAttributes = [
+            //                .foregroundColor: UIColor.black
+            //            ]
+            //            UINavigationBar.appearance().titleTextAttributes = [
+            //                .foregroundColor: UIColor.black
+            //            ]
+        }
+        .onDisappear {
+            UITableView.appearance().backgroundColor = .systemGroupedBackground
+            UITableView.appearance().isScrollEnabled = true
+        }
+
+        //        .onChange(of: selectedTheme) { newValue in
+        //            naviTitleColor = theme.primaryText
+        //        }
     }
 }

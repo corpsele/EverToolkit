@@ -7,32 +7,40 @@
 
 import SwiftUI
 import SwiftUIIntrospect
-import SimpleUIList
 
 struct PostView: View {
     @StateObject private var vm = PostVM()
     /// 提示框
     @State private var isShowError = false
-    
+
     @Environment(\.theme) private var theme
     @AppStorage("selectedTheme") private var selectedTheme: String = Theme.light
         .rawValue
-    
+
     @State private var listState: ListState = .items
-    
+
+    private var currentTheme: Theme {
+        Theme(rawValue: selectedTheme) ?? .light
+    }
+
+    @State private var naviTitleColor: Color = .black
+
+    @EnvironmentObject private var naviTitleColorManager:
+        NavigationTitleColorManager
+
     init() {
         UITableView.appearance().backgroundColor = .clear
     }
-    
+
     var body: some View {
         NavigationView {
             ZStack {
                 theme.background
-//                    .ignoresSafeArea(.all)
-                
-//                viewSimpleList()
+                //                    .ignoresSafeArea(.all)
+
+                //                viewSimpleList()
                 viewList()
-                
+
                 if vm.isLoading {
                     ProgressView("加载中...")
                         .padding()
@@ -43,16 +51,19 @@ struct PostView: View {
                 }
             }
             .background(theme.background)
-            
+
             .navigationTitle("文章列表")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button(action: {
-                        vm.loadFromLocal()
-                    }, label: {
-                        Label("本地", systemImage: "tray.and.arrow.down")
-                            .foregroundColor(theme.primaryText)
-                    })
+                    Button(
+                        action: {
+                            vm.loadFromLocal()
+                        },
+                        label: {
+                            Label("本地", systemImage: "tray.and.arrow.down")
+                                .foregroundColor(theme.primaryText)
+                        }
+                    )
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
@@ -65,39 +76,49 @@ struct PostView: View {
                 }
             }
         }
+        //        .onChange(of: naviTitleColor){ newColor in
+        //            naviTitleColor = newColor
+        //        }
         .background(theme.background)
-//        .ignoresSafeArea()
+        .navigationTitleColor($naviTitleColor)
         .onAppear {
-//            UINavigationBar.appearance().backgroundColor = .clear
-            UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(theme.primaryText)]
-            UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(theme.primaryText)]
+            naviTitleColor = theme.primaryText
             UITableView.appearance().backgroundColor = .clear
             /// 首次本地加载
             if vm.posts.isEmpty {
                 vm.loadFromLocal()
-                
+
             }
         }
         .onDisappear {
-            UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(theme.primaryText)]
-            UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(theme.primaryText)]
+            naviTitleColor = theme.primaryText
             UITableView.appearance().backgroundColor = .systemGroupedBackground
         }
+        //        .onReceive(naviTitleColorManager.$navigationTitleColor) { newValue in
+        //            naviTitleColor = newValue
+        //        }
 
-        .alert(item: Binding<ItemError?>(
-            get: {
-                vm.errorMessage.map { ItemError(message: $0) }
-            },
-            set: { _ in
-                vm.errorMessage = nil
-            }
-        )) { item in
-            Alert(title: Text("提示"), message: Text(item.message), dismissButton: .default(Text("确定")))
+        .alert(
+            item: Binding<ItemError?>(
+                get: {
+                    vm.errorMessage.map { ItemError(message: $0) }
+                },
+                set: { _ in
+                    vm.errorMessage = nil
+                }
+            )
+        ) { item in
+            Alert(
+                title: Text("提示"),
+                message: Text(item.message),
+                dismissButton: .default(Text("确定"))
+            )
         }
-        
+
     }
-    
-    private func viewSimpleList () -> some View {
+
+    // MARK: 三方list
+    private func viewSimpleList() -> some View {
         return SimpleUIList(vm.posts) { post in
             VStack(alignment: .leading, spacing: 6) {
                 Text(post.title)
@@ -112,50 +133,58 @@ struct PostView: View {
         }
         .background(theme.background)
     }
-    
+
+    // MARK: 三方list
     private func viewAdvanceList() -> some View {
-        return AdvancedList(vm.posts, content: { post in
-            VStack(alignment: .leading, spacing: 6) {
-                Text(post.title)
-                    .font(.headline)
-                    .foregroundColor(.primary)
-                Text(post.body)
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-                    .lineLimit(2)
-            }
-            .padding(.vertical, 4)
-        }, listState: listState, emptyStateView: {
-            Text("No Data")
-        }, errorStateView: { error in
-            Text(error.localizedDescription)
+        return AdvancedList(
+            vm.posts,
+            content: { post in
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(post.title)
+                        .font(.headline)
+                        .foregroundColor(.primary)
+                    Text(post.body)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                        .lineLimit(2)
+                }
+                .padding(.vertical, 4)
+            },
+            listState: listState,
+            emptyStateView: {
+                Text("No Data")
+            },
+            errorStateView: { error in
+                Text(error.localizedDescription)
                     .lineLimit(nil)
-        }, loadingStateView: {
-            
-        })
+            },
+            loadingStateView: {
+
+            }
+        )
         .background(theme.background)
     }
-    
-    /// MARK: 系统list
+
+    // MARK: 系统list
     private func viewList() -> some View {
         return ZStack {
             theme.background
                 .ignoresSafeArea()
             List {
                 ForEach(vm.posts) { post in
-//                    VStack(alignment: .leading, spacing: 6) {
-                        Text(post.title)
-                            .font(.headline)
-                            .foregroundColor(theme.primaryText)
-                            .listRowBackground(theme.background)
-                        Text(post.body)
-                            .font(.subheadline)
-                            .foregroundColor(theme.secondaryText)
-                            .lineLimit(2)
-                            .listRowBackground(theme.background)
-//                    }
-                    .background(theme.background)
-                    .padding(.vertical, 4)
+                    //                    VStack(alignment: .leading, spacing: 6) {
+                    Text(post.title)
+                        .font(.headline)
+                        .foregroundColor(theme.primaryText)
+                        .listRowBackground(theme.background)
+                    Text(post.body)
+                        .font(.subheadline)
+                        .foregroundColor(theme.secondaryText)
+                        .lineLimit(2)
+                        .listRowBackground(theme.background)
+                        //                    }
+                        .background(theme.background)
+                        .padding(.vertical, 4)
                 }
                 .onDelete { indexSet in
                     for index in indexSet {

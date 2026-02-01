@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ProfileView: View {
     @Binding var selectedTab: TabEnum
@@ -21,6 +22,10 @@ struct ProfileView: View {
         Theme(rawValue: selectedTheme) ?? .light
     }
     
+//    @StateObject var naviTitleColorManager = NavigationTitleColorManager()
+    
+    @State var naviTitleColor: Color = .black
+    
 
     var body: some View {
         NavigationView {
@@ -33,22 +38,33 @@ struct ProfileView: View {
             .viewBackground(theme.background)
         }
         .viewBackground(theme.background)
+        .navigationTitleColor($naviTitleColor)
         .onAppear {
-            
+            naviTitleColor = theme.primaryText
             if currentTheme == Theme.dark {
                 enableDark = true
             }
         }
+        .onDisappear {
+            
+        }
+//        .environmentObject(naviTitleColorManager)
+//        .onChange(of: currentTheme) { newValue in
+//            naviTitleColor = theme.primaryText
+//            
+//        }
     }
 
     private func toDark() {
         print("toDark")
         selectedTheme = Theme.dark.rawValue
+
     }
 
     private func toLight() {
         print("toLight")
         selectedTheme = Theme.light.rawValue
+        
     }
     
     // MARK: form
