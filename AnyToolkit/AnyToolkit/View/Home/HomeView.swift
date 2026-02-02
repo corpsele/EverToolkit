@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftUIIntrospect
+import CLSDK_Swift
 
 /// 主界面
 struct HomeView: View {
@@ -41,7 +42,9 @@ struct HomeView: View {
                             Text("home_tab_title")
                                 .font(.title2)
                             Button("guide_welcome_title") {
-                                selectedTab = .profile
+//                                selectedTab = .profile
+                                CLMainTest.testMain()
+                                PrintLog.printLog()
                             }
                             .buttonStyle(.borderless)
                         }
@@ -66,6 +69,10 @@ struct HomeView: View {
                     }
                     .frame(maxWidth: .infinity, alignment: .center)
                     .listStyle(.plain)
+//                    .listRowSeparator(.hidden)
+                    .introspect(.list, on: .iOS(.v14)) { list in
+                        list.separatorStyle = .none
+                    }
                 }
                 
                 
@@ -94,6 +101,7 @@ struct HomeView: View {
             naviTitleColor = theme.primaryText
             UITableView.appearance().backgroundColor = .clear
             UITableView.appearance().isScrollEnabled = false
+            UITableView.appearance().separatorStyle = .none
             //            UINavigationBar.appearance().largeTitleTextAttributes = [
             //                .foregroundColor: UIColor.black
             //            ]
@@ -104,6 +112,7 @@ struct HomeView: View {
         .onDisappear {
             UITableView.appearance().backgroundColor = .systemGroupedBackground
             UITableView.appearance().isScrollEnabled = true
+            UITableView.appearance().separatorStyle = .singleLine
         }
 
         //        .onChange(of: selectedTheme) { newValue in

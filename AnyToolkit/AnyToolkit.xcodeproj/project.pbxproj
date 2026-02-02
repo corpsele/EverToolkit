@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 7556EA132F2C561F002DE73A /* SwiftUIIntrospect */; };
 		7556EA5A2F2C79B5002DE73A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7556EA432F2C762F002DE73A /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75FF8CD72F3031420091C943 /* CLSDK_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF8CD62F3031420091C943 /* CLSDK_Swift */; };
+		75FF8D272F303EBA0091C943 /* CLSDK_Framework-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF8D262F303EBA0091C943 /* CLSDK_Framework-Static */; };
+		75FF8D452F304F9E0091C943 /* SwiftyUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF8D442F304F9E0091C943 /* SwiftyUtils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +78,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */,
+				75FF8D452F304F9E0091C943 /* SwiftyUtils in Frameworks */,
+				75FF8D272F303EBA0091C943 /* CLSDK_Framework-Static in Frameworks */,
 				7556EA5A2F2C79B5002DE73A /* XCTest.framework in Frameworks */,
+				75FF8CD72F3031420091C943 /* CLSDK_Swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +155,9 @@
 			name = AnyToolkit;
 			packageProductDependencies = (
 				7556EA132F2C561F002DE73A /* SwiftUIIntrospect */,
+				75FF8CD62F3031420091C943 /* CLSDK_Swift */,
+				75FF8D262F303EBA0091C943 /* CLSDK_Framework-Static */,
+				75FF8D442F304F9E0091C943 /* SwiftyUtils */,
 			);
 			productName = AnyToolkit;
 			productReference = 75DEC24B2F25BF5E00EBA1AC /* AnyToolkit.app */;
@@ -234,6 +243,9 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				7556EA122F2C561F002DE73A /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
+				75FF8CD52F3031420091C943 /* XCRemoteSwiftPackageReference "CLSDK_Swift" */,
+				75FF8D252F303EBA0091C943 /* XCRemoteSwiftPackageReference "CLSDK_Framework" */,
+				75FF8D432F304F9E0091C943 /* XCRemoteSwiftPackageReference "SwiftyUtils" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 75DEC24C2F25BF5E00EBA1AC /* Products */;
@@ -632,6 +644,30 @@
 				minimumVersion = 26.0.0;
 			};
 		};
+		75FF8CD52F3031420091C943 /* XCRemoteSwiftPackageReference "CLSDK_Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/corpsele/CLSDK_Swift";
+			requirement = {
+				branch = dev;
+				kind = branch;
+			};
+		};
+		75FF8D252F303EBA0091C943 /* XCRemoteSwiftPackageReference "CLSDK_Framework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/corpsele/CLSDK_Framework";
+			requirement = {
+				branch = dev;
+				kind = branch;
+			};
+		};
+		75FF8D432F304F9E0091C943 /* XCRemoteSwiftPackageReference "SwiftyUtils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tbaranes/SwiftyUtils";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -639,6 +675,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7556EA122F2C561F002DE73A /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
 			productName = SwiftUIIntrospect;
+		};
+		75FF8CD62F3031420091C943 /* CLSDK_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75FF8CD52F3031420091C943 /* XCRemoteSwiftPackageReference "CLSDK_Swift" */;
+			productName = CLSDK_Swift;
+		};
+		75FF8D262F303EBA0091C943 /* CLSDK_Framework-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75FF8D252F303EBA0091C943 /* XCRemoteSwiftPackageReference "CLSDK_Framework" */;
+			productName = "CLSDK_Framework-Static";
+		};
+		75FF8D442F304F9E0091C943 /* SwiftyUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75FF8D432F304F9E0091C943 /* XCRemoteSwiftPackageReference "SwiftyUtils" */;
+			productName = SwiftyUtils;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
