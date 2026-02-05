@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 7556EA132F2C561F002DE73A /* SwiftUIIntrospect */; };
 		7556EA5A2F2C79B5002DE73A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7556EA432F2C762F002DE73A /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75CDF65E2F34586400BB7CF6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDF65D2F34586400BB7CF6 /* WidgetKit.framework */; };
+		75CDF6602F34586400BB7CF6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDF65F2F34586400BB7CF6 /* SwiftUI.framework */; };
+		75CDF6712F34586500BB7CF6 /* EverWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 75CDF65C2F34586400BB7CF6 /* EverWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75CDF68D2F346C0C00BB7CF6 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 75CDF68C2F346C0C00BB7CF6 /* SFSafeSymbols */; };
+		75CDF68F2F346C2800BB7CF6 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 75CDF68E2F346C2800BB7CF6 /* SFSafeSymbols */; };
 		75FF8CD72F3031420091C943 /* CLSDK_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF8CD62F3031420091C943 /* CLSDK_Swift */; };
 		75FF8D272F303EBA0091C943 /* CLSDK_Framework-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF8D262F303EBA0091C943 /* CLSDK_Framework-Static */; };
 		75FF8D452F304F9E0091C943 /* SwiftyUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 75FF8D442F304F9E0091C943 /* SwiftyUtils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		75CDF66F2F34586500BB7CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DEC2432F25BF5E00EBA1AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75CDF65B2F34586400BB7CF6;
+			remoteInfo = EverWidgetExtension;
+		};
 		75DEC25E2F25BF5F00EBA1AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75DEC2432F25BF5E00EBA1AC /* Project object */;
@@ -31,17 +43,50 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		75CDF6722F34586500BB7CF6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75CDF6712F34586500BB7CF6 /* EverWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7556EA402F2C762F002DE73A /* StoreKitTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKitTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/StoreKitTest.framework; sourceTree = DEVELOPER_DIR; };
 		7556EA412F2C762F002DE73A /* _Testing_Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = _Testing_Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/_Testing_Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7556EA422F2C762F002DE73A /* Testing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Testing.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/Testing.framework; sourceTree = DEVELOPER_DIR; };
 		7556EA432F2C762F002DE73A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75CDF65C2F34586400BB7CF6 /* EverWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EverWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CDF65D2F34586400BB7CF6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		75CDF65F2F34586400BB7CF6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		75CDF6782F3459DB00BB7CF6 /* EverWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EverWidgetExtension.entitlements; sourceTree = "<group>"; };
 		75DEC24B2F25BF5E00EBA1AC /* AnyToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DEC25D2F25BF5F00EBA1AC /* AnyToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DEC2672F25BF5F00EBA1AC /* AnyToolkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyToolkitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		75CDF6762F34586500BB7CF6 /* Exceptions for "EverWidget" folder in "EverWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 75CDF65B2F34586400BB7CF6 /* EverWidgetExtension */;
+		};
+		75CDF6802F345D4300BB7CF6 /* Exceptions for "AnyToolkit" folder in "EverWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Model/TodoItem.swift,
+				Repository/TodoRepository.swift,
+			);
+			target = 75CDF65B2F34586400BB7CF6 /* EverWidgetExtension */;
+		};
 		75E767E92F2730CB00D3D52B /* Exceptions for "AnyToolkit" folder in "AnyToolkit" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -52,10 +97,19 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		75CDF6612F34586400BB7CF6 /* EverWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				75CDF6762F34586500BB7CF6 /* Exceptions for "EverWidget" folder in "EverWidgetExtension" target */,
+			);
+			path = EverWidget;
+			sourceTree = "<group>";
+		};
 		75DEC24D2F25BF5E00EBA1AC /* AnyToolkit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				75E767E92F2730CB00D3D52B /* Exceptions for "AnyToolkit" folder in "AnyToolkit" target */,
+				75CDF6802F345D4300BB7CF6 /* Exceptions for "AnyToolkit" folder in "EverWidgetExtension" target */,
 			);
 			path = AnyToolkit;
 			sourceTree = "<group>";
@@ -73,10 +127,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		75CDF6592F34586400BB7CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CDF68D2F346C0C00BB7CF6 /* SFSafeSymbols in Frameworks */,
+				75CDF6602F34586400BB7CF6 /* SwiftUI.framework in Frameworks */,
+				75CDF65E2F34586400BB7CF6 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75DEC2482F25BF5E00EBA1AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CDF68F2F346C2800BB7CF6 /* SFSafeSymbols in Frameworks */,
 				7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */,
 				75FF8D452F304F9E0091C943 /* SwiftyUtils in Frameworks */,
 				75FF8D272F303EBA0091C943 /* CLSDK_Framework-Static in Frameworks */,
@@ -109,6 +174,8 @@
 				7556EA402F2C762F002DE73A /* StoreKitTest.framework */,
 				7556EA422F2C762F002DE73A /* Testing.framework */,
 				7556EA432F2C762F002DE73A /* XCTest.framework */,
+				75CDF65D2F34586400BB7CF6 /* WidgetKit.framework */,
+				75CDF65F2F34586400BB7CF6 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +183,11 @@
 		75DEC2422F25BF5E00EBA1AC = {
 			isa = PBXGroup;
 			children = (
+				75CDF6782F3459DB00BB7CF6 /* EverWidgetExtension.entitlements */,
 				75DEC24D2F25BF5E00EBA1AC /* AnyToolkit */,
 				75DEC2602F25BF5F00EBA1AC /* AnyToolkitTests */,
 				75DEC26A2F25BF5F00EBA1AC /* AnyToolkitUITests */,
+				75CDF6612F34586400BB7CF6 /* EverWidget */,
 				7556EA3F2F2C762F002DE73A /* Frameworks */,
 				75DEC24C2F25BF5E00EBA1AC /* Products */,
 			);
@@ -130,6 +199,7 @@
 				75DEC24B2F25BF5E00EBA1AC /* AnyToolkit.app */,
 				75DEC25D2F25BF5F00EBA1AC /* AnyToolkitTests.xctest */,
 				75DEC2672F25BF5F00EBA1AC /* AnyToolkitUITests.xctest */,
+				75CDF65C2F34586400BB7CF6 /* EverWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +207,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		75CDF65B2F34586400BB7CF6 /* EverWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75CDF6752F34586500BB7CF6 /* Build configuration list for PBXNativeTarget "EverWidgetExtension" */;
+			buildPhases = (
+				75CDF6582F34586400BB7CF6 /* Sources */,
+				75CDF6592F34586400BB7CF6 /* Frameworks */,
+				75CDF65A2F34586400BB7CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				75CDF6612F34586400BB7CF6 /* EverWidget */,
+			);
+			name = EverWidgetExtension;
+			packageProductDependencies = (
+				75CDF68C2F346C0C00BB7CF6 /* SFSafeSymbols */,
+			);
+			productName = EverWidgetExtension;
+			productReference = 75CDF65C2F34586400BB7CF6 /* EverWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		75DEC24A2F25BF5E00EBA1AC /* AnyToolkit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75DEC2712F25BF5F00EBA1AC /* Build configuration list for PBXNativeTarget "AnyToolkit" */;
@@ -144,10 +237,12 @@
 				75DEC2472F25BF5E00EBA1AC /* Sources */,
 				75DEC2482F25BF5E00EBA1AC /* Frameworks */,
 				75DEC2492F25BF5E00EBA1AC /* Resources */,
+				75CDF6722F34586500BB7CF6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				75CDF6702F34586500BB7CF6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				75DEC24D2F25BF5E00EBA1AC /* AnyToolkit */,
@@ -158,6 +253,7 @@
 				75FF8CD62F3031420091C943 /* CLSDK_Swift */,
 				75FF8D262F303EBA0091C943 /* CLSDK_Framework-Static */,
 				75FF8D442F304F9E0091C943 /* SwiftyUtils */,
+				75CDF68E2F346C2800BB7CF6 /* SFSafeSymbols */,
 			);
 			productName = AnyToolkit;
 			productReference = 75DEC24B2F25BF5E00EBA1AC /* AnyToolkit.app */;
@@ -219,6 +315,10 @@
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
+					75CDF65B2F34586400BB7CF6 = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+					};
 					75DEC24A2F25BF5E00EBA1AC = {
 						CreatedOnToolsVersion = 26.2;
 					};
@@ -246,6 +346,7 @@
 				75FF8CD52F3031420091C943 /* XCRemoteSwiftPackageReference "CLSDK_Swift" */,
 				75FF8D252F303EBA0091C943 /* XCRemoteSwiftPackageReference "CLSDK_Framework" */,
 				75FF8D432F304F9E0091C943 /* XCRemoteSwiftPackageReference "SwiftyUtils" */,
+				75CDF68B2F346C0C00BB7CF6 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 75DEC24C2F25BF5E00EBA1AC /* Products */;
@@ -255,11 +356,19 @@
 				75DEC24A2F25BF5E00EBA1AC /* AnyToolkit */,
 				75DEC25C2F25BF5F00EBA1AC /* AnyToolkitTests */,
 				75DEC2662F25BF5F00EBA1AC /* AnyToolkitUITests */,
+				75CDF65B2F34586400BB7CF6 /* EverWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		75CDF65A2F34586400BB7CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75DEC2492F25BF5E00EBA1AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +393,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		75CDF6582F34586400BB7CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75DEC2472F25BF5E00EBA1AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +424,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		75CDF6702F34586500BB7CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75CDF65B2F34586400BB7CF6 /* EverWidgetExtension */;
+			targetProxy = 75CDF66F2F34586500BB7CF6 /* PBXContainerItemProxy */;
+		};
 		75DEC25F2F25BF5F00EBA1AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 75DEC24A2F25BF5E00EBA1AC /* AnyToolkit */;
@@ -321,6 +442,73 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		75CDF6732F34586500BB7CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = EverWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SL6B57AC84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EverWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EverWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.corpsele.AnyToolkit.EverWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75CDF6742F34586500BB7CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = EverWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SL6B57AC84;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EverWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EverWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.corpsele.AnyToolkit.EverWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		75DEC26F2F25BF5F00EBA1AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -447,6 +635,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnyToolkit/AnyToolkit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SL6B57AC84;
@@ -481,6 +670,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnyToolkit/AnyToolkit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SL6B57AC84;
@@ -597,6 +787,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		75CDF6752F34586500BB7CF6 /* Build configuration list for PBXNativeTarget "EverWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CDF6732F34586500BB7CF6 /* Debug */,
+				75CDF6742F34586500BB7CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		75DEC2462F25BF5E00EBA1AC /* Build configuration list for PBXProject "AnyToolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -644,6 +843,14 @@
 				minimumVersion = 26.0.0;
 			};
 		};
+		75CDF68B2F346C0C00BB7CF6 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 		75FF8CD52F3031420091C943 /* XCRemoteSwiftPackageReference "CLSDK_Swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/corpsele/CLSDK_Swift";
@@ -675,6 +882,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7556EA122F2C561F002DE73A /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
 			productName = SwiftUIIntrospect;
+		};
+		75CDF68C2F346C0C00BB7CF6 /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75CDF68B2F346C0C00BB7CF6 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+		75CDF68E2F346C2800BB7CF6 /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75CDF68B2F346C0C00BB7CF6 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
 		};
 		75FF8CD62F3031420091C943 /* CLSDK_Swift */ = {
 			isa = XCSwiftPackageProductDependency;

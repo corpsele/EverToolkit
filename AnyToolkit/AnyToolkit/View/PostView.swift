@@ -12,6 +12,8 @@ struct PostView: View {
     @StateObject private var vm = PostVM()
     /// 提示框
     @State private var isShowError = false
+    @State private var showAlert = false
+    @State private var selectedPost: Post?
 
     @Environment(\.theme) private var theme
     @AppStorage("selectedTheme") private var selectedTheme: String = Theme.light
@@ -30,6 +32,9 @@ struct PostView: View {
 
     init() {
         UITableView.appearance().backgroundColor = .clear
+        UITableViewCell.appearance().backgroundColor = .clear
+        UITableViewCell.appearance().backgroundView = UIView()
+        UITableViewHeaderFooterView.appearance().backgroundView = UIView()  // iOS 14+
     }
 
     var body: some View {
@@ -93,27 +98,11 @@ struct PostView: View {
         .onDisappear {
             naviTitleColor = theme.primaryText
             UITableView.appearance().backgroundColor = .systemGroupedBackground
+            UITableViewCell.appearance().backgroundColor = .systemBackground
         }
         //        .onReceive(naviTitleColorManager.$navigationTitleColor) { newValue in
         //            naviTitleColor = newValue
         //        }
-
-        .alert(
-            item: Binding<ItemError?>(
-                get: {
-                    vm.errorMessage.map { ItemError(message: $0) }
-                },
-                set: { _ in
-                    vm.errorMessage = nil
-                }
-            )
-        ) { item in
-            Alert(
-                title: Text("提示"),
-                message: Text(item.message),
-                dismissButton: .default(Text("确定"))
-            )
-        }
 
     }
 
@@ -172,19 +161,24 @@ struct PostView: View {
                 .ignoresSafeArea()
             List {
                 ForEach(vm.posts) { post in
-                    //                    VStack(alignment: .leading, spacing: 6) {
-                    Text(post.title)
-                        .font(.headline)
-                        .foregroundColor(theme.primaryText)
-                        .listRowBackground(theme.background)
-                    Text(post.body)
-                        .font(.subheadline)
-                        .foregroundColor(theme.secondaryText)
-                        .lineLimit(2)
-                        .listRowBackground(theme.background)
-                        //                    }
-                        .background(theme.background)
-                        .padding(.vertical, 4)
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text(post.title)
+                            .font(.headline)
+                            .foregroundColor(theme.primaryText)
+                            .listRowBackground(theme.background)
+                        Text(post.body)
+                            .font(.subheadline)
+                            .foregroundColor(theme.secondaryText)
+                            .lineLimit(2)
+                            .listRowBackground(theme.background)
+                            .background(theme.background)
+                            .padding(.vertical, 4)
+                    }
+                    .listRowBackground(theme.background)
+                    .background(theme.background)
+                    .onTapGesture {
+                        selectedPost = post
+                    }
                 }
                 .onDelete { indexSet in
                     for index in indexSet {
@@ -193,6 +187,30 @@ struct PostView: View {
                         }
                     }
                 }
+            }
+            .alert(
+                item: Binding<ItemError?>(
+                    get: {
+                        vm.errorMessage.map { ItemError(message: $0) }
+                    },
+                    set: { _ in
+                        vm.errorMessage = nil
+                    }
+                )
+            ) { item in
+                Alert(
+                    title: Text("提示"),
+                    message: Text(item.message),
+                    dismissButton: .default(Text("确定"))
+                )
+            }
+            //            .alert(isPresented: $showAlert) {
+            .alert(item: $selectedPost) { post in
+                Alert(
+                    title: Text("提示"),
+                    message: Text(post.body),
+                    dismissButton: .default(Text("知道了"))
+                )
             }
             .listStyle(.plain)
         }
