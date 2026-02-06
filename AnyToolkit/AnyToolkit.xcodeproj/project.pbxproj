@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 7556EA132F2C561F002DE73A /* SwiftUIIntrospect */; };
-		7556EA5A2F2C79B5002DE73A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7556EA432F2C762F002DE73A /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		75CDF65E2F34586400BB7CF6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDF65D2F34586400BB7CF6 /* WidgetKit.framework */; };
-		75CDF6602F34586400BB7CF6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDF65F2F34586400BB7CF6 /* SwiftUI.framework */; };
 		75CDF6712F34586500BB7CF6 /* EverWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 75CDF65C2F34586400BB7CF6 /* EverWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		75CDF68D2F346C0C00BB7CF6 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 75CDF68C2F346C0C00BB7CF6 /* SFSafeSymbols */; };
 		75CDF68F2F346C2800BB7CF6 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 75CDF68E2F346C2800BB7CF6 /* SFSafeSymbols */; };
@@ -57,13 +55,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7556EA402F2C762F002DE73A /* StoreKitTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKitTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/StoreKitTest.framework; sourceTree = DEVELOPER_DIR; };
-		7556EA412F2C762F002DE73A /* _Testing_Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = _Testing_Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/_Testing_Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7556EA422F2C762F002DE73A /* Testing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Testing.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/Testing.framework; sourceTree = DEVELOPER_DIR; };
-		7556EA432F2C762F002DE73A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		75CDF65C2F34586400BB7CF6 /* EverWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EverWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CDF65D2F34586400BB7CF6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
-		75CDF65F2F34586400BB7CF6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		75CDF6782F3459DB00BB7CF6 /* EverWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EverWidgetExtension.entitlements; sourceTree = "<group>"; };
 		75DEC24B2F25BF5E00EBA1AC /* AnyToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DEC25D2F25BF5F00EBA1AC /* AnyToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CDF68D2F346C0C00BB7CF6 /* SFSafeSymbols in Frameworks */,
-				75CDF6602F34586400BB7CF6 /* SwiftUI.framework in Frameworks */,
 				75CDF65E2F34586400BB7CF6 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +137,6 @@
 				7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */,
 				75FF8D452F304F9E0091C943 /* SwiftyUtils in Frameworks */,
 				75FF8D272F303EBA0091C943 /* CLSDK_Framework-Static in Frameworks */,
-				7556EA5A2F2C79B5002DE73A /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,12 +160,7 @@
 		7556EA3F2F2C762F002DE73A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7556EA412F2C762F002DE73A /* _Testing_Foundation.framework */,
-				7556EA402F2C762F002DE73A /* StoreKitTest.framework */,
-				7556EA422F2C762F002DE73A /* Testing.framework */,
-				7556EA432F2C762F002DE73A /* XCTest.framework */,
 				75CDF65D2F34586400BB7CF6 /* WidgetKit.framework */,
-				75CDF65F2F34586400BB7CF6 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -639,6 +625,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SL6B57AC84;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AnyToolkit/Third",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnyToolkit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -650,7 +641,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					/usr/lib/swift,
+					"$(HOME)/Links",
 				);
+				LIBRARY_SEARCH_PATHS = "$(HOME)/Links";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.corpsele.AnyToolkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -674,6 +668,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SL6B57AC84;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AnyToolkit/Third",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AnyToolkit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -685,7 +684,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					/usr/lib/swift,
+					"$(HOME)/Links",
 				);
+				LIBRARY_SEARCH_PATHS = "$(HOME)/Links";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.corpsele.AnyToolkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";

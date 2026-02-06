@@ -35,8 +35,9 @@ struct NavigationBarConfig: UIViewControllerRepresentable {
 /// 定义修改视图
 struct NavigationTitleColorModifier: ViewModifier {
     @Binding var color: Color
+    typealias SContent = Content
     
-    func body(content: Content) -> some View {
+    func body(content: Self.Content) -> some View {
         content
             .background(
                 NavigationBarConfig { vc in

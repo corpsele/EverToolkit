@@ -19,24 +19,9 @@ struct ExploreView: View {
     var body: some View {
         NavigationView {
             VStack {
-                List {
-                    ForEach(todos) { item in
-                        HStack {
-                            Text(item.title)
-                            Spacer()
-//                            Button(LocalizedStringKey("btn_check"), systemImage: SFSymbol.calendar.rawValue) {
-//                                
-//                            }
-                            Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
-                        }
-                    }
-                    .onDelete { indexSet in
-                        withAnimation {
-                            TodoSharedStore.remove(indexSet)
-                            WidgetCenter.shared.reloadTimelines(ofKind: "TodoWidget")
-                        }
-                    }
-                }
+//                viewList()
+                viewSimpleTableView()
+                
                 .navigationTitle("explore_tab_title")
                 .viewBackground(theme.background)
                 .toolbar {
@@ -58,5 +43,39 @@ struct ExploreView: View {
             }
         }
         
+    }
+    
+    private func viewList() -> some View {
+        List {
+            ForEach(todos) { item in
+                HStack {
+                    Text(item.title)
+                    Spacer()
+                    Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
+                }
+            }
+            .onDelete { indexSet in
+                withAnimation {
+                    TodoSharedStore.remove(indexSet)
+                    WidgetCenter.shared.reloadTimelines(ofKind: "TodoWidget")
+                }
+            }
+        }
+    }
+    
+    private func viewSimpleTableView() -> some View {
+        SimpleUIList(todos) { todo in
+            HStack(alignment: .center, spacing: 6) {
+                Text(todo.title)
+                Spacer()
+                Image(systemName: todo.isDone ? "checkmark.circle.fill" : "circle")
+            }
+            .background(Color.white)
+            
+        }
+//        .startAtBottom(true)
+//        .reverseList(false)
+        .padding()
+        .background(theme.background)
     }
 }
