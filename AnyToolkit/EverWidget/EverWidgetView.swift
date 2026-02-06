@@ -18,6 +18,7 @@ struct TodoWidgetView: View {
             emptyView
         default:
             contentView(for: entry.todos)
+                .environment(\.widgetFamily, WidgetFamily.systemLarge)
         }
     }
 
@@ -129,7 +130,8 @@ struct TodoWidgetView: View {
 
             Divider()
 
-            ScrollView {
+//            ScrollView {
+            VStack {
                 ForEach(todos) { item in
                     HStack(alignment: .firstTextBaseline) {
                         Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")

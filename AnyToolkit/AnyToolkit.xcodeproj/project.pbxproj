@@ -83,6 +83,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Model/TodoItem.swift,
+				Public/EnvValueEx.swift,
 				Repository/TodoRepository.swift,
 			);
 			target = 75CDF65B2F34586400BB7CF6 /* EverWidgetExtension */;
@@ -463,6 +464,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-D widgetKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.corpsele.AnyToolkit.EverWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -497,6 +499,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-D widgetKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.corpsele.AnyToolkit.EverWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

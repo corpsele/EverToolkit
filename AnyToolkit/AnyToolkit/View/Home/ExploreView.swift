@@ -33,6 +33,7 @@ struct ExploreView: View {
                     .onDelete { indexSet in
                         withAnimation {
                             TodoSharedStore.remove(indexSet)
+                            WidgetCenter.shared.reloadTimelines(ofKind: "TodoWidget")
                         }
                     }
                 }
