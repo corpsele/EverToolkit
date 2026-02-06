@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SwiftUIIntrospect
-import CLSDK_Swift
 
 /// 主界面
 struct HomeView: View {
@@ -43,7 +42,7 @@ struct HomeView: View {
                                 .font(.title2)
                             Button("guide_welcome_title") {
 //                                selectedTab = .profile
-                                CLMainTest.testMain()
+                                
                                 PrintLog.printLog()
                             }
                             .buttonStyle(.borderless)
