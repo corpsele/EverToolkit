@@ -1,4 +1,0 @@
-module Once {
-header "Once-Swift.h"
-export *
-}

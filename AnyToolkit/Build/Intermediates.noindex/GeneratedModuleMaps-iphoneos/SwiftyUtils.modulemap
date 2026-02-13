@@ -1,4 +1,0 @@
-module SwiftyUtils {
-header "SwiftyUtils-Swift.h"
-export *
-}

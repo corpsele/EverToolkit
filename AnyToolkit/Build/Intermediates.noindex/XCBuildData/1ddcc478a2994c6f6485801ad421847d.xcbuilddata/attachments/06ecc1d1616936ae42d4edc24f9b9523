@@ -1,4 +1,0 @@
-module SwiftUINavigationTransitions {
-header "SwiftUINavigationTransitions-Swift.h"
-export *
-}

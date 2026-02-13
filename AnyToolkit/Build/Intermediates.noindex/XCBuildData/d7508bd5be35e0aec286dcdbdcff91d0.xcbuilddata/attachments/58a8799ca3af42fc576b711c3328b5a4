@@ -1,4 +1,0 @@
-module Association {
-header "Association-Swift.h"
-export *
-}

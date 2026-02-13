@@ -1,4 +1,0 @@
-module Animator {
-header "Animator-Swift.h"
-export *
-}

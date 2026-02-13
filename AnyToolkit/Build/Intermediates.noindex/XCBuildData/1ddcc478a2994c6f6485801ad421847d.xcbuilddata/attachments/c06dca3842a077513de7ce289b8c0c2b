@@ -1,4 +1,0 @@
-module AtomicTransition {
-header "AtomicTransition-Swift.h"
-export *
-}
