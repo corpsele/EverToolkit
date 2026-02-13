@@ -1,0 +1,4 @@
+module UIKitNavigationTransitions {
+header "UIKitNavigationTransitions-Swift.h"
+export *
+}

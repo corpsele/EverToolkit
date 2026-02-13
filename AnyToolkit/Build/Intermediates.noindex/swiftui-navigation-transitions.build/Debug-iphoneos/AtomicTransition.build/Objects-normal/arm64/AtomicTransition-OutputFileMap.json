@@ -1,0 +1,159 @@
+{
+  "" : {
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition-primary.dia",
+    "emit-module-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition-primary-emit-module.dia",
+    "pch" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition-primary.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/AtomicTransition.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransition~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/AtomicTransitionBuilder.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransitionBuilder.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransitionBuilder.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransitionBuilder.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransitionBuilder.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransitionBuilder.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransitionBuilder.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransitionBuilder.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/AtomicTransitionBuilder~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Combined.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Combined.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Combined.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Combined.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Combined.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Combined.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Combined.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Combined.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Combined~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Group.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Group.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Group.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Group.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Group.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Group.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Group.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Group.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Group~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Identity.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Identity.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Identity.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Identity.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Identity.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Identity.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Identity.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Identity.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Identity~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Mirror.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Mirror.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Mirror.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Mirror.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Mirror.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Mirror.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Mirror.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Mirror.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Mirror~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Move.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Move.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Move.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Move.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Move.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Move.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Move.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Move.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Move~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Offset.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Offset.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Offset.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Offset.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Offset.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Offset.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Offset.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Offset.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Offset~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/On.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/On.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/On.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/On.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/On.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/On.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/On.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/On.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/On~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Opacity.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Opacity.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Opacity.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Opacity.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Opacity.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Opacity.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Opacity.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Opacity.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Opacity~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Rotate.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Rotate3D.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate3D.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate3D.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate3D.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate3D.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate3D.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate3D.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate3D.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Rotate3D~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/Scale.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Scale.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Scale.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Scale.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Scale.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Scale.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Scale.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Scale.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/Scale~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/ZPosition.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/ZPosition.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/ZPosition.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/ZPosition.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/ZPosition.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/ZPosition.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/ZPosition.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/ZPosition.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/ZPosition~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-navigation-transitions/Sources/AtomicTransition/_Exports.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/_Exports.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/_Exports.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/_Exports.dia",
+    "index-unit-output-path" : "/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/_Exports.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/_Exports.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/_Exports.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/_Exports.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-navigation-transitions.build/Debug-iphoneos/AtomicTransition.build/Objects-normal/arm64/_Exports~partial.swiftmodule"
+  }
+}

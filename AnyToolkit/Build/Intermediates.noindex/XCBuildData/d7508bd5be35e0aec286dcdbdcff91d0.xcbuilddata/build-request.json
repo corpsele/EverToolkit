@@ -1,0 +1,69 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "6744dccc1e77d72d02bc0f26ba6f470144fab147d940b08cee181cf28495e192"
+    }
+  ],
+  "containerPath" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos26.2",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Products",
+      "derivedDataPath" : "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone12,8",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "26.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone12,8",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CodeCoverage/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "00008030-0011482A3CE3802E",
+          "TARGET_DEVICE_MODEL" : "iPhone12,8",
+          "TARGET_DEVICE_OS_VERSION" : "26.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.Metal.32023 $(inherited)"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

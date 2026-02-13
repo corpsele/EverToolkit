@@ -1,0 +1,51 @@
+{
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-introspect/Sources/Introspect.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/Introspect.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/Introspect.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/Introspect.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/Introspect.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/Introspect.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-introspect/Sources/IntrospectableViewType.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectableViewType.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectableViewType.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectableViewType.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectableViewType.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectableViewType.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-introspect/Sources/IntrospectionSelector.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionSelector.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionSelector.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionSelector.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionSelector.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionSelector.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-introspect/Sources/IntrospectionView.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionView.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionView.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionView.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionView.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/IntrospectionView.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-introspect/Sources/PlatformVersion.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformVersion.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformVersion.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformVersion.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformVersion.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformVersion.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-introspect/Sources/PlatformView.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformView.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformView.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformView.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformView.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformView.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swiftui-introspect/Sources/PlatformViewVersion.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformViewVersion.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformViewVersion.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformViewVersion.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformViewVersion.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swiftui-introspect.build/Debug-iphoneos/SwiftUIIntrospect.build/Objects-normal/arm64/PlatformViewVersion.swiftdeps"
+  }
+}

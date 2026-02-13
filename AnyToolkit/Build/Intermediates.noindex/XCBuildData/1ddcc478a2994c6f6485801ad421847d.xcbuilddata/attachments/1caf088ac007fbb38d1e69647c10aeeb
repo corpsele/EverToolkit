@@ -1,0 +1,4 @@
+module Animation {
+header "Animation-Swift.h"
+export *
+}

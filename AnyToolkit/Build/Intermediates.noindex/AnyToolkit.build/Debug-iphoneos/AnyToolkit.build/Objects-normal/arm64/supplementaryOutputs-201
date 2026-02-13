@@ -1,0 +1,30 @@
+{
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Third/AdvancedList/public/Views/AdvancedList.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AdvancedList.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AdvancedList.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AdvancedList.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AdvancedList.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AdvancedList.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Third/SimpleUIList/HostingTableViewCell.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/HostingTableViewCell.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/HostingTableViewCell.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/HostingTableViewCell.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/HostingTableViewCell.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/HostingTableViewCell.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Third/SimpleUIList/SimpleUIList.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/SimpleUIList.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/SimpleUIList.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/SimpleUIList.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/SimpleUIList.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/SimpleUIList.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Third/SimpleUIList/TableViewController.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/TableViewController.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/TableViewController.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/TableViewController.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/TableViewController.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/TableViewController.swiftdeps"
+  }
+}

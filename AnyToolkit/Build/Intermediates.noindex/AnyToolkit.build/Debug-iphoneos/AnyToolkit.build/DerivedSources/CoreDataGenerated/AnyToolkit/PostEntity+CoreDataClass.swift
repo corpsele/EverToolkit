@@ -1,0 +1,18 @@
+//
+//  PostEntity+CoreDataClass.swift
+//  
+//
+//  Created by corpsele_n on 2026/2/13.
+//
+//  This file was automatically generated and should not be edited.
+//
+
+public import Foundation
+public import CoreData
+
+public typealias PostEntityCoreDataClassSet = NSSet
+
+@objc(PostEntity)
+public class PostEntity: NSManagedObject {
+
+}

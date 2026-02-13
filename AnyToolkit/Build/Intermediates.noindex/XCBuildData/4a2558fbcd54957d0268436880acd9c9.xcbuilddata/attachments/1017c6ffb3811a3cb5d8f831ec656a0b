@@ -1,0 +1,89 @@
+{
+  "" : {
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetExtension-primary.dia",
+    "emit-module-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetExtension-primary-emit-module.dia",
+    "pch" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetExtension-primary.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Model/TodoItem.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoItem.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoItem.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoItem.dia",
+    "index-unit-output-path" : "/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoItem.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoItem.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoItem.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoItem.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoItem~partial.swiftmodule"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Public/EnvValueEx.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EnvValueEx.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EnvValueEx.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EnvValueEx.dia",
+    "index-unit-output-path" : "/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EnvValueEx.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EnvValueEx.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EnvValueEx.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EnvValueEx.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EnvValueEx~partial.swiftmodule"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Repository/TodoRepository.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoRepository.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoRepository.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoRepository.dia",
+    "index-unit-output-path" : "/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoRepository.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoRepository.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoRepository.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoRepository.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/TodoRepository~partial.swiftmodule"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/EverWidget/EverWidget.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidget.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidget.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidget.dia",
+    "index-unit-output-path" : "/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidget.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidget.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidget.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidget.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidget~partial.swiftmodule"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/EverWidget/EverWidgetBundle.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetBundle.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetBundle.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetBundle.dia",
+    "index-unit-output-path" : "/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetBundle.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetBundle.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetBundle.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetBundle.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetBundle~partial.swiftmodule"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/EverWidget/EverWidgetView.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetView.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetView.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetView.dia",
+    "index-unit-output-path" : "/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetView.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetView.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetView.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetView.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/EverWidgetView~partial.swiftmodule"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/EverWidget/Public/ViewEx.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/ViewEx.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/ViewEx.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/ViewEx.dia",
+    "index-unit-output-path" : "/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/ViewEx.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/ViewEx.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/ViewEx.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/ViewEx.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/EverWidgetExtension.build/Objects-normal/arm64/ViewEx~partial.swiftmodule"
+  }
+}

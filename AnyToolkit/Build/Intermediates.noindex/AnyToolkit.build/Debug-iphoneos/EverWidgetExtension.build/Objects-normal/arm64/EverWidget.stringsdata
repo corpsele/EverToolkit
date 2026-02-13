@@ -1,0 +1,24 @@
+{
+  "source": "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/EverWidget/EverWidget.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "今日待办",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "在主屏幕上查看你的待办事项。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 64
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,4 @@
+module CLSDK_Framework {
+header "CLSDK_Framework-Swift.h"
+export *
+}

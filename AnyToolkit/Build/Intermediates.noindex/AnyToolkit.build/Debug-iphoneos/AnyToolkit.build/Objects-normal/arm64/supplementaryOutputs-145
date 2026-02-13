@@ -1,0 +1,23 @@
+{
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/View/GuideView.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/GuideView.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/GuideView.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/GuideView.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/GuideView.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/GuideView.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/View/MainTabView.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/MainTabView.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/MainTabView.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/MainTabView.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/MainTabView.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/MainTabView.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/View/PostView.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PostView.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PostView.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PostView.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PostView.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PostView.swiftdeps"
+  }
+}

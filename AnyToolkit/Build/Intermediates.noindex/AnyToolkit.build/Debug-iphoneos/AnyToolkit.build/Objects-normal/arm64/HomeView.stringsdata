@@ -1,0 +1,40 @@
+{
+  "source": "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/View/Home/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "home_tab_title",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "home_tab_title",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "guide_welcome_title",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "go_to_login",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 90
+        }
+      }
+    ]
+  },
+  "version": 1
+}

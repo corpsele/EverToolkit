@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Once-primary.dia",
+    "emit-module-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Once-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Once-primary-emit-module.dia",
+    "pch" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Once-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Once-primary.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swift-once-macro/Sources/Once/Exports.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Exports.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Exports.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Exports.dia",
+    "index-unit-output-path" : "/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Exports.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Exports.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Exports.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Exports.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Exports~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/swift-once-macro/Sources/Once/Macros.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Macros.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Macros.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Macros.dia",
+    "index-unit-output-path" : "/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Macros.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Macros.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Macros.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Macros.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/swift-once-macro.build/Debug-iphoneos/Once.build/Objects-normal/arm64/Macros~partial.swiftmodule"
+  }
+}

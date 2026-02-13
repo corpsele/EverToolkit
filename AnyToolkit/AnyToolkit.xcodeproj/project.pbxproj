@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 7556EA132F2C561F002DE73A /* SwiftUIIntrospect */; };
+		758B83002F3C6C3400F4CA41 /* SwiftUINavigationTransitions in Frameworks */ = {isa = PBXBuildFile; productRef = 758B82FF2F3C6C3400F4CA41 /* SwiftUINavigationTransitions */; };
+		758B83022F3C6C3400F4CA41 /* UIKitNavigationTransitions in Frameworks */ = {isa = PBXBuildFile; productRef = 758B83012F3C6C3400F4CA41 /* UIKitNavigationTransitions */; };
 		75CDF65E2F34586400BB7CF6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CDF65D2F34586400BB7CF6 /* WidgetKit.framework */; };
 		75CDF6712F34586500BB7CF6 /* EverWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 75CDF65C2F34586400BB7CF6 /* EverWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		75CDF68D2F346C0C00BB7CF6 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 75CDF68C2F346C0C00BB7CF6 /* SFSafeSymbols */; };
@@ -133,7 +135,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758B83002F3C6C3400F4CA41 /* SwiftUINavigationTransitions in Frameworks */,
 				75CDF68F2F346C2800BB7CF6 /* SFSafeSymbols in Frameworks */,
+				758B83022F3C6C3400F4CA41 /* UIKitNavigationTransitions in Frameworks */,
 				7556EA142F2C561F002DE73A /* SwiftUIIntrospect in Frameworks */,
 				75FF8D452F304F9E0091C943 /* SwiftyUtils in Frameworks */,
 				75FF8D272F303EBA0091C943 /* CLSDK_Framework-Static in Frameworks */,
@@ -238,6 +242,8 @@
 				75FF8D262F303EBA0091C943 /* CLSDK_Framework-Static */,
 				75FF8D442F304F9E0091C943 /* SwiftyUtils */,
 				75CDF68E2F346C2800BB7CF6 /* SFSafeSymbols */,
+				758B82FF2F3C6C3400F4CA41 /* SwiftUINavigationTransitions */,
+				758B83012F3C6C3400F4CA41 /* UIKitNavigationTransitions */,
 			);
 			productName = AnyToolkit;
 			productReference = 75DEC24B2F25BF5E00EBA1AC /* AnyToolkit.app */;
@@ -330,6 +336,7 @@
 				75FF8D252F303EBA0091C943 /* XCRemoteSwiftPackageReference "CLSDK_Framework" */,
 				75FF8D432F304F9E0091C943 /* XCRemoteSwiftPackageReference "SwiftyUtils" */,
 				75CDF68B2F346C0C00BB7CF6 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+				758B82FE2F3C6C3400F4CA41 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 75DEC24C2F25BF5E00EBA1AC /* Products */;
@@ -844,6 +851,14 @@
 				minimumVersion = 26.0.0;
 			};
 		};
+		758B82FE2F3C6C3400F4CA41 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/davdroman/swiftui-navigation-transitions";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.16.1;
+			};
+		};
 		75CDF68B2F346C0C00BB7CF6 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
@@ -875,6 +890,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7556EA122F2C561F002DE73A /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
 			productName = SwiftUIIntrospect;
+		};
+		758B82FF2F3C6C3400F4CA41 /* SwiftUINavigationTransitions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 758B82FE2F3C6C3400F4CA41 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */;
+			productName = SwiftUINavigationTransitions;
+		};
+		758B83012F3C6C3400F4CA41 /* UIKitNavigationTransitions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 758B82FE2F3C6C3400F4CA41 /* XCRemoteSwiftPackageReference "swiftui-navigation-transitions" */;
+			productName = UIKitNavigationTransitions;
 		};
 		75CDF68C2F346C0C00BB7CF6 /* SFSafeSymbols */ = {
 			isa = XCSwiftPackageProductDependency;

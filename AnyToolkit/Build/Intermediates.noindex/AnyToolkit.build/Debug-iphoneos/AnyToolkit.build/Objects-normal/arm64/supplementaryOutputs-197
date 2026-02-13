@@ -1,0 +1,30 @@
+{
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Public/CustomNavigationView.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomNavigationView.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomNavigationView.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomNavigationView.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomNavigationView.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomNavigationView.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Public/CustomTabView.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomTabView.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomTabView.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomTabView.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomTabView.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/CustomTabView.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Public/NavigationBarConfig.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/NavigationBarConfig.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/NavigationBarConfig.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/NavigationBarConfig.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/NavigationBarConfig.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/NavigationBarConfig.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/Public/PrintLog.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PrintLog.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PrintLog.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PrintLog.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PrintLog.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/PrintLog.swiftdeps"
+  }
+}

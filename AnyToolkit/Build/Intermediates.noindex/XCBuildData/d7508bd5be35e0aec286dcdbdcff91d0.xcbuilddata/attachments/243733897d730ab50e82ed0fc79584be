@@ -1,0 +1,4 @@
+module ObjCRuntimeTools {
+header "ObjCRuntimeTools-Swift.h"
+export *
+}

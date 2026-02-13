@@ -1,0 +1,51 @@
+{
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/CoreData/AIModelRequest+CoreDataProperties.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequest+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequest+CoreDataProperties.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequest+CoreDataProperties.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequest+CoreDataProperties.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequest+CoreDataProperties.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/CoreData/AIModelRequestMessage+CoreDataClass.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataClass.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataClass.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataClass.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataClass.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/CoreData/AIModelRequestMessage+CoreDataProperties.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataProperties.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataProperties.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataProperties.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelRequestMessage+CoreDataProperties.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/CoreData/AIModelResponse+CoreDataClass.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataClass.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataClass.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataClass.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataClass.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/CoreData/AIModelResponse+CoreDataProperties.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataProperties.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataProperties.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataProperties.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponse+CoreDataProperties.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/CoreData/AIModelResponseMessage+CoreDataClass.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataClass.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataClass.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataClass.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataClass.swiftdeps"
+  },
+  "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/AnyToolkit/CoreData/AIModelResponseMessage+CoreDataProperties.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataProperties.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataProperties.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataProperties.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/AnyToolkit.build/Debug-iphoneos/AnyToolkit.build/Objects-normal/arm64/AIModelResponseMessage+CoreDataProperties.swiftdeps"
+  }
+}

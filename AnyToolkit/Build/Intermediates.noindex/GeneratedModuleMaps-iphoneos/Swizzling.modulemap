@@ -1,0 +1,4 @@
+module Swizzling {
+header "Swizzling-Swift.h"
+export *
+}

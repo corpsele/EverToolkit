@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftUIIntrospect
+import SwiftUINavigationTransitions
 
 struct PostView: View {
     @StateObject private var vm = PostVM()
@@ -29,12 +30,14 @@ struct PostView: View {
 
     @EnvironmentObject private var naviTitleColorManager:
         NavigationTitleColorManager
+    
 
     init() {
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundColor = .clear
         UITableViewCell.appearance().backgroundView = UIView()
         UITableViewHeaderFooterView.appearance().backgroundView = UIView()  // iOS 14+
+        
     }
 
     var body: some View {
@@ -86,6 +89,8 @@ struct PostView: View {
         //        }
         .background(theme.background)
         .navigationTitleColor($naviTitleColor)
+        .navigationTransition(.fade(.in).animation(.easeInOut(duration: 0.5)))
+        .navigationViewStyle(.stack)
         .onAppear {
             naviTitleColor = theme.primaryText
             UITableView.appearance().backgroundColor = .clear
@@ -108,7 +113,7 @@ struct PostView: View {
 
     // MARK: 三方list
     private func viewSimpleList() -> some View {
-        return SimpleUIList(vm.posts) { post in
+        SimpleUIList(vm.posts) { post in
             VStack(alignment: .leading, spacing: 6) {
                 Text(post.title)
                     .font(.headline)
@@ -125,7 +130,7 @@ struct PostView: View {
 
     // MARK: 三方list
     private func viewAdvanceList() -> some View {
-        return AdvancedList(
+        AdvancedList(
             vm.posts,
             content: { post in
                 VStack(alignment: .leading, spacing: 6) {
@@ -156,7 +161,7 @@ struct PostView: View {
 
     // MARK: 系统list
     private func viewList() -> some View {
-        return ZStack {
+        ZStack {
             theme.background
                 .ignoresSafeArea()
             List {
@@ -179,6 +184,21 @@ struct PostView: View {
                     .onTapGesture {
                         selectedPost = post
                     }
+                    
+
+                    HStack {
+                        NavigationLink(destination:
+                            toPostSecond()
+                        ) {
+                            Text("进入二级页面")
+                                .foregroundColor(theme.secondaryText)
+                                .lineLimit(2)
+                                .listRowBackground(theme.background)
+                                .background(theme.background)
+                        }
+                    }
+                    .listRowBackground(theme.background)
+                    .background(theme.background)
                 }
                 .onDelete { indexSet in
                     for index in indexSet {
@@ -203,6 +223,7 @@ struct PostView: View {
                     message: Text(item.message),
                     dismissButton: .default(Text("确定"))
                 )
+                
             }
             //            .alert(isPresented: $showAlert) {
             .alert(item: $selectedPost) { post in
@@ -214,6 +235,17 @@ struct PostView: View {
             }
             .listStyle(.plain)
         }
+    }
+    
+    @ViewBuilder
+    private func toPostSecond() -> some View {
+        if #available(iOS 16.0, *) {
+            PostSecondView()
+                .toolbar(Visibility.hidden, for: .tabBar)
+        }else{
+            PostSecondView()
+        }
+        
     }
 }
 

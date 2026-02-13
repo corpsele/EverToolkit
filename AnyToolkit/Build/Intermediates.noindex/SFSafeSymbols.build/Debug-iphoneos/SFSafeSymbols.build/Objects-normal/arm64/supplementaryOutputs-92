@@ -1,0 +1,44 @@
+{
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SFSafeSymbols/Sources/SFSafeSymbols/Symbols/SFSymbol+3.3.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+3.3.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+3.3.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+3.3.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+3.3.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+3.3.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SFSafeSymbols/Sources/SFSafeSymbols/Symbols/SFSymbol+4.0.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.0.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.0.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.0.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.0.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.0.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SFSafeSymbols/Sources/SFSafeSymbols/Symbols/SFSymbol+4.1.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.1.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.1.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.1.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.1.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.1.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SFSafeSymbols/Sources/SFSafeSymbols/Symbols/SFSymbol+4.2.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.2.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.2.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.2.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.2.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+4.2.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SFSafeSymbols/Sources/SFSafeSymbols/Symbols/SFSymbol+5.0.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.0.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.0.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.0.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.0.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.0.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SFSafeSymbols/Sources/SFSafeSymbols/Symbols/SFSymbol+5.1.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.1.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.1.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.1.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.1.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SFSafeSymbols.build/Debug-iphoneos/SFSafeSymbols.build/Objects-normal/arm64/SFSymbol+5.1.swiftdeps"
+  }
+}

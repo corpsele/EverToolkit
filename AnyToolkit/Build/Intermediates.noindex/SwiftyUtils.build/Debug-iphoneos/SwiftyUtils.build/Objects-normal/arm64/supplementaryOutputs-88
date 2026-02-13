@@ -1,0 +1,37 @@
+{
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SwiftyUtils/Sources/Protocols/Swift/Then.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Then.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Then.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Then.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Then.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Then.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SwiftyUtils/Sources/Protocols/UIKit/Nibs/NibLoadable.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibLoadable.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibLoadable.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibLoadable.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibLoadable.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibLoadable.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SwiftyUtils/Sources/Protocols/UIKit/Nibs/NibOwnerLoadable.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibOwnerLoadable.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibOwnerLoadable.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibOwnerLoadable.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibOwnerLoadable.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/NibOwnerLoadable.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SwiftyUtils/Sources/Protocols/UIKit/Reusable/Reusable.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Reusable.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Reusable.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Reusable.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Reusable.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/Reusable.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/SwiftyUtils/Sources/SwiftUI/Preview/UIElementPreview.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/UIElementPreview.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/UIElementPreview.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/UIElementPreview.dia",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/UIElementPreview.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/SwiftyUtils.build/Debug-iphoneos/SwiftyUtils.build/Objects-normal/arm64/UIElementPreview.swiftdeps"
+  }
+}

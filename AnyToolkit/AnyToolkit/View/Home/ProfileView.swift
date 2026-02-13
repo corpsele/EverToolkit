@@ -69,7 +69,7 @@ struct ProfileView: View {
     
     // MARK: form
     private func viewForm() -> some View {
-        return Form
+        Form
         {
             Section(header: Text("Header Section")) {
                 VStack(spacing: 0) {

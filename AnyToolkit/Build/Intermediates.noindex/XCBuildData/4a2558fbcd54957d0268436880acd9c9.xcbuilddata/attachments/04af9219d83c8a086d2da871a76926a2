@@ -1,0 +1,159 @@
+{
+  "" : {
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-primary.dia",
+    "emit-module-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-primary-emit-module.dia",
+    "pch" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-primary.swiftdeps"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Base/BaseAdapter.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseAdapter.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseAdapter.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseAdapter.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseAdapter.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseAdapter.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseAdapter.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseAdapter.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseAdapter~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Base/BaseModel.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseModel.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseModel.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseModel.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseModel.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseModel.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseModel.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseModel.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseModel~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Base/BaseRepository.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseRepository.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseRepository.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseRepository.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseRepository.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseRepository.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseRepository.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseRepository.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseRepository~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Base/BaseService.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseService.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseService.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseService.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseService.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseService.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseService.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseService.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseService~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Base/BaseViewModel.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseViewModel.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseViewModel.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseViewModel.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseViewModel.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseViewModel.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseViewModel.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseViewModel.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/BaseViewModel~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/CLSDK_Framework.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-b0e52cd61d5da278f843663aff4370fd.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-b0e52cd61d5da278f843663aff4370fd.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-b0e52cd61d5da278f843663aff4370fd.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-b0e52cd61d5da278f843663aff4370fd.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-b0e52cd61d5da278f843663aff4370fd.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-b0e52cd61d5da278f843663aff4370fd.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-b0e52cd61d5da278f843663aff4370fd.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK_Framework-b0e52cd61d5da278f843663aff4370fd~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Main/CLSDK.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/CLSDK~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Models/AIContentModel.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/AIContentModel.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/AIContentModel.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/AIContentModel.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/AIContentModel.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/AIContentModel.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/AIContentModel.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/AIContentModel.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/AIContentModel~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Models/PublicModel.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicModel.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicModel.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicModel.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicModel.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicModel.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicModel.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicModel.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicModel~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Public/APIs.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/APIs.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/APIs.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/APIs.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/APIs.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/APIs.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/APIs.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/APIs.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/APIs~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Public/PublicConfig.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicConfig.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicConfig.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicConfig.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicConfig.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicConfig.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicConfig.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicConfig.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicConfig~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Public/PublicObserver.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicObserver.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicObserver.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicObserver.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicObserver.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicObserver.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicObserver.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicObserver.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicObserver~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Public/PublicView.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicView.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicView.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicView.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicView.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicView.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicView.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicView.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/PublicView~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Utils/SM3.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM3.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM3.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM3.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM3.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM3.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM3.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM3.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM3~partial.swiftmodule"
+  },
+  "/Volumes/aigo_1T/corpsele_n/Library/Developer/Xcode/DerivedData/AnyToolkit-eqzvtznjmamnxsfxitalrkvuhlpf/SourcePackages/checkouts/CLSDK_Framework/Sources/CLSDK_Framework/Utils/SM4.swift" : {
+    "const-values" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM4.swiftconstvalues",
+    "dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM4.d",
+    "diagnostics" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM4.dia",
+    "index-unit-output-path" : "/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM4.o",
+    "llvm-bc" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM4.bc",
+    "object" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM4.o",
+    "swift-dependencies" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM4.swiftdeps",
+    "swiftmodule" : "/Volumes/Seagate015_4T_mac/projects/EverToolkit/AnyToolkit/Build/Intermediates.noindex/CLSDK_Framework.build/Debug-iphoneos/CLSDK_Framework.build/Objects-normal/arm64/SM4~partial.swiftmodule"
+  }
+}
