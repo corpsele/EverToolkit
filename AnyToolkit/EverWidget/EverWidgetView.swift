@@ -11,6 +11,8 @@ import WidgetKit
 
 struct TodoWidgetView: View {
     let entry: TodoEntry
+    
+    @Environment(\.widgetFamily) var widgetFamily
 
     var body: some View {
         switch entry.todos.count {
@@ -38,26 +40,18 @@ struct TodoWidgetView: View {
 
     @ViewBuilder
     private func contentView(for todos: [TodoItem]) -> some View {
-        switch family {
+        switch widgetFamily {
         case .systemSmall:
             smallView(todos: todos)
         case .systemMedium:
             mediumView(todos: todos)
         case .systemLarge:
             largeView(todos: todos)
+        case .systemExtraLarge:
+            largeView(todos: todos)
         @unknown default:
             smallView(todos: todos)
         }
-    }
-
-    private var family: WidgetFamily {
-        // iOS 14+ 可用
-        #if widgetKit
-        @Environment(\.widgetFamily) var widgetFamily
-        return widgetFamily
-        #else
-        return .systemSmall
-        #endif
     }
 
     // MARK: - Small：只展示最近一条
@@ -156,3 +150,5 @@ struct TodoWidgetView: View {
         .widgetBackground( Color(.secondarySystemGroupedBackground))
     }
 }
+        
+ 

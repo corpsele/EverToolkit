@@ -21,7 +21,7 @@ struct PersistenceController {
                 fatalError("Unresolved Core Data Error \(error), \n\(error.userInfo)")
             }
         }
-        printSQLitePath()
+//        printSQLitePath()
     }
     var viewContent: NSManagedObjectContext {
         container.viewContext

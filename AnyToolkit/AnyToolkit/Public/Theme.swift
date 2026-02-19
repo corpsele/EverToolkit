@@ -30,6 +30,30 @@ enum Theme: String, CaseIterable, Identifiable {
         }
     }
     
+    var backgroundGray: Color {
+        switch self {
+//        case .light: return Color(white: 0.95, opacity: 1.0)
+//        case .dark: return Color(white: 0.11, opacity: 1.0)
+        case .light: return .gray
+        case .dark: return .gray
+        case .blue: return Color(red: 0.10, green: 0.14, blue: 0.24, opacity: 1.0)
+        case .red: return Color(red: 1, green: 0, blue: 0, opacity: 1.0) // #ff00
+        case .gray: return Color(red: 0.64, green: 0.64, blue: 0.64, opacity: 1.0) // #a3a3a3
+        }
+    }
+    
+    var backgroundGrayBlack: Color {
+        switch self {
+//        case .light: return Color(white: 0.95, opacity: 1.0)
+//        case .dark: return Color(white: 0.11, opacity: 1.0)
+        case .light: return .gray
+        case .dark: return .black
+        case .blue: return Color(red: 0.10, green: 0.14, blue: 0.24, opacity: 1.0)
+        case .red: return Color(red: 1, green: 0, blue: 0, opacity: 1.0) // #ff00
+        case .gray: return Color(red: 0.64, green: 0.64, blue: 0.64, opacity: 1.0) // #a3a3a3
+        }
+    }
+    
     var suface: Color {
         switch self {
         case .light: return Color.white

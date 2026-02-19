@@ -14,7 +14,7 @@ class PostVM: ObservableObject {
     @Published var errorMessage: String?
     private let api = PostService()
     private let repo = PostRepository()
-    private var cancellabels = Set<AnyCancellable>()
+    private var cancellables = Set<AnyCancellable>()
     
     /// 本地加载
     func loadFromLocal() {
@@ -29,7 +29,7 @@ class PostVM: ObservableObject {
                 self?.isLoading = false
                 self?.posts = posts
             })
-            .store(in: &cancellabels)
+            .store(in: &cancellables)
     }
     
     /// 网络请求 -> 本地存储 -> 本地读取
@@ -58,7 +58,7 @@ class PostVM: ObservableObject {
             }, receiveValue: { [weak self] posts in
                 self?.posts = posts
             })
-            .store(in: &cancellabels)
+            .store(in: &cancellables)
     }
     
     /// 删除 使用withAnimation动画
@@ -72,6 +72,6 @@ class PostVM: ObservableObject {
             }, receiveValue: {
                 self.posts.removeAll { $0.id == post.id }
             })
-            .store(in: &cancellabels)
+            .store(in: &cancellables)
     }
 }

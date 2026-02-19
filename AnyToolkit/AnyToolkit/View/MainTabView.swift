@@ -33,7 +33,12 @@ struct MainTabView: View {
                     Label("home_tab_title", systemImage: "house.fill")
                 }
                 .tag(TabEnum.home)
-            ExploreView(selectedTab: $selectedTab)
+//            ExploreView(selectedTab: $selectedTab)
+//                .tabItem {
+//                    Label("explore_tab_title", systemImage: "safari.fill")
+//                }
+//                .tag(TabEnum.explore)
+            ModuleView(selectedTab: $selectedTab)
                 .tabItem {
                     Label("explore_tab_title", systemImage: "safari.fill")
                 }
