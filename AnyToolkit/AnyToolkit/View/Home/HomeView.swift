@@ -196,6 +196,12 @@ struct HomeView: View {
                 .listRowBackground(
                     theme.background
                 )
+                VStack(alignment: .center, spacing: 1) {
+                    EpicFreeView { item in
+                        print(item)
+                    }
+                }
+                .padding()
             }
             //            .frame(
             //                maxWidth: .infinity,
