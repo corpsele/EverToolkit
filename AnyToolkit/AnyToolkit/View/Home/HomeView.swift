@@ -82,6 +82,9 @@ struct HomeView: View {
                 .appearance().isScrollEnabled = false
             UITableView
                 .appearance().separatorStyle = .none
+            UITableView.appearance().showsVerticalScrollIndicator = false
+            UITableView.appearance().showsHorizontalScrollIndicator = false
+            
             //            UINavigationBar.appearance().largeTitleTextAttributes = [
             //                .foregroundColor: UIColor.black
             //            ]
@@ -96,6 +99,8 @@ struct HomeView: View {
                 .appearance().isScrollEnabled = true
             UITableView
                 .appearance().separatorStyle = .singleLine
+            UITableView.appearance().showsVerticalScrollIndicator = true
+            UITableView.appearance().showsHorizontalScrollIndicator = true
         }
 
         //        .onChange(of: selectedTheme) { newValue in
@@ -132,10 +137,23 @@ struct HomeView: View {
 
     private func viewList() -> some View {
         VStack {
-            List {
-                VStack {
-                    viewBanner()
-                }
+            if #available(iOS 16.0, *) {
+                list16()
+            } else {
+                list14()
+            }
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+
+    }
+    
+    private func list14() -> some View {
+        List {
+            VStack {
+                viewBanner()
+                Divider()
+            }
+            VStack {
                 VStack(
                     alignment: .center,
                     spacing: 1
@@ -180,8 +198,6 @@ struct HomeView: View {
                     Color.white
                 )
                 .padding()
-                //                        .clipShape(RoundedRectangle(cornerRadius: 15))
-                //                        .shadow(radius: 5)
                 // 1. 盖上一层圆角矩形边框
                 .overlay(
                     RoundedRectangle(
@@ -193,34 +209,182 @@ struct HomeView: View {
                     )  // 描边颜色和宽度
                 )
                 .padding()
-                .listRowBackground(
-                    theme.background
-                )
-                VStack(alignment: .center, spacing: 1) {
-                    EpicFreeView { item in
-                        print(item)
-                    }
+                Divider()
+            }
+            VStack(alignment: .center, spacing: 1) {
+                EpicFreeView { item in
+                    print(item)
+                    openEpicWeb(item.link)
                 }
-                .padding()
             }
-            //            .frame(
-            //                maxWidth: .infinity,
-            //                alignment: .center
-            //            )
-            .listStyle(
-                .plain
-            )
-            //                    .listRowSeparator(.hidden)
-            .introspect(
-                .list,
-                on: .iOS(
-                    .v14
-                )
-            ) { list in
-                list.separatorStyle = .none
-            }
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+//                .padding(2)
 
+        }
+        .listRowBackground(
+            theme.background
+        )
+        .hideListRowSeparators()
+        //            .frame(
+        //                maxWidth: .infinity,
+        //                alignment: .center
+        //            )
+        .listStyle(
+            .plain
+        )
+        .clipShape(
+            RoundedRectangle(
+                cornerRadius: 15
+            )
+        )
+        .shadow(
+            radius: 5
+        )
+        .introspect(
+            .list,
+            on: .iOS(
+                .v14
+            )
+        ) { list in
+            list.separatorStyle = .none
+            list.showsVerticalScrollIndicator = false
+            list.showsHorizontalScrollIndicator = false
+        }
+        .introspect(
+            .scrollView,
+            on: .iOS(
+                .v14
+            )
+        ) { scrollView in
+            scrollView.showsVerticalScrollIndicator = false
+            scrollView.showsHorizontalScrollIndicator = false
+        }
+    }
+    
+    @available(iOS 16.0, *)
+    private func list16() -> some View {
+        List {
+            VStack {
+                viewBanner()
+                Divider()
+            }
+            VStack {
+                VStack(
+                    alignment: .center,
+                    spacing: 1
+                ) {
+                    Image(
+                        systemName: "house.fill"
+                    )
+                    .resizable()
+                    .frame(
+                        width: 60,
+                        height: 60
+                    )
+                    .foregroundColor(
+                        theme.acent
+                    )
+                    Text(
+                        "home_tab_title"
+                    )
+                    .font(
+                        .title2
+                    )
+                    Button(
+                        "guide_welcome_title"
+                    ) {
+                        //                                selectedTab = .profile
+
+                        PrintLog
+                            .printLog()
+                    }
+                    .buttonStyle(
+                        .borderless
+                    )
+                }
+
+                // alignment center
+                .frame(
+                    maxWidth: .infinity,
+                    maxHeight: .infinity,
+                    alignment: .center
+                )
+                .background(
+                    Color.white
+                )
+                .padding()
+                // 1. 盖上一层圆角矩形边框
+                .overlay(
+                    RoundedRectangle(
+                        cornerRadius: 15
+                    )
+                    .stroke(
+                        Color.blue,
+                        lineWidth: 2
+                    )  // 描边颜色和宽度
+                )
+                .padding()
+                Divider()
+            }
+            VStack(alignment: .center, spacing: 1) {
+                EpicFreeView { item in
+                    print(item)
+                    openEpicWeb(item.link)
+                }
+            }
+//                .padding(2)
+
+        }
+        .listRowBackground(
+            theme.background
+        )
+        .hideListRowSeparators()
+        //            .frame(
+        //                maxWidth: .infinity,
+        //                alignment: .center
+        //            )
+        .listStyle(
+            .plain
+        )
+        .clipShape(
+            RoundedRectangle(
+                cornerRadius: 15
+            )
+        )
+        .shadow(
+            radius: 5
+        )
+        .introspect(
+            .list,
+            on: .iOS(
+                .v14
+            )
+        ) { list in
+            list.separatorStyle = .none
+            list.showsVerticalScrollIndicator = false
+            list.showsHorizontalScrollIndicator = false
+        }
+        .introspect(
+            .scrollView,
+            on: .iOS(
+                .v14
+            )
+        ) { scrollView in
+            scrollView.showsVerticalScrollIndicator = false
+            scrollView.showsHorizontalScrollIndicator = false
+        }
+        .scrollIndicators(.hidden)
+    }
+    
+    private func openEpicWeb(_ strUrl: String) {
+        let url = URL(
+            string: strUrl
+        )
+        guard let url = url else { return }
+        UIApplication.shared.open(
+            url,
+            options: [:],
+        ) { _ in
+            
+        }
     }
 }

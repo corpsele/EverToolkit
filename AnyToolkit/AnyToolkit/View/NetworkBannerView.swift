@@ -3,7 +3,7 @@
 //  AnyToolkit
 //
 //  Created by corpsele_n on 2026/2/17.
-//
+//  首页banner
 
 import SwiftUI
 import Kingfisher

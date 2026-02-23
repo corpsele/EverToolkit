@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct EpicFreeView: View {
     @StateObject private var viewModel = EpicFreeVM()
@@ -63,6 +64,23 @@ struct EpicFreeCellView: View {
     let item: EpicFreeModel
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
+            KFImage(
+                URL(
+                    string: item.cover
+                )
+            )
+            .placeholder {
+                Image(
+                    "EpicPlaceholder"
+                )
+            }
+            .resizable()
+            .scaledToFit()
+            .clipped()
+            .frame(
+                width: 200,
+                height: 200,
+            )
             Text(item.title)
                 .font(.headline)
                 .foregroundColor(.primary)

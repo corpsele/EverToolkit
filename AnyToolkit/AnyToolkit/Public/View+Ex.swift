@@ -31,3 +31,39 @@ extension View {
     }
 
 }
+
+
+// 扩展 View，提供一个修饰符来移除分割线
+extension View {
+    func hideListRowSeparators() -> some View {
+        self.onAppear {
+            // 延迟执行，确保视图层级已加载
+            DispatchQueue.main.async {
+                // 找到当前的 UIWindow
+                guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                      let rootViewController = windowScene.windows.first?.rootViewController else { return }
+                
+                // 递归遍历所有子视图
+                func traverseAndHide(_ view: UIView) {
+                    for subview in view.subviews {
+                        // 如果发现了分割线视图，将其隐藏
+                        // iOS 14+ 的 List 分割线类名
+                        if String(describing: type(of: subview)).contains("ListSeparatorView") ||
+                           String(describing: type(of: subview)).contains("UICollectionViewListSeparatorView") {
+                            subview.isHidden = true
+                        }
+                        
+                        // 或者采用更暴力的方式：设置透明色 (推荐，避免布局异常)
+                        if String(describing: type(of: subview)).contains("Separator") {
+                             subview.alpha = 0
+                        }
+                        
+                        traverseAndHide(subview)
+                    }
+                }
+                
+                traverseAndHide(rootViewController.view)
+            }
+        }
+    }
+}
