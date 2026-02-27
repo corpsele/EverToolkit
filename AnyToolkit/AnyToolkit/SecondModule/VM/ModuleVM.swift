@@ -27,6 +27,12 @@ class ModuleVM: ObservableObject {
                     title: "骨架屏",
                     content: "瀑布流",
                 )
+            } else if i == 2 {
+                module = Module(
+                    id: Int32(i),
+                    title: "打字机",
+                    content: "1字"
+                )
             }
             list.append(module)
         }

@@ -127,7 +127,20 @@ struct ModuleView: View {
                 WaterFallView()
             }
             
-
+        case 2:
+            if #available(iOS 16.0, *) {
+                if settings.isTabbarHidden {
+                    TypewriterView()
+                        .toolbar(.hidden, for: .tabBar)
+                } else {
+                    TypewriterView()
+                        .toolbar(.visible, for: .tabBar)
+                }
+                    
+                
+            } else {
+                TypewriterView()
+            }
         default:
             VStack {}
         }
