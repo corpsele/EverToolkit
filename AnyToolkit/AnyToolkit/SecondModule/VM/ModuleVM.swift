@@ -21,6 +21,12 @@ class ModuleVM: ObservableObject {
             var module = Module(id: Int32(i), title: "title\(i)", content: "content\(i)")
             if i == 0 {
                 module = Module(id: Int32(i), title: "发现二级", content: "发现二级页面")
+            } else if i == 1 {
+                module = Module(
+                    id: Int32(i),
+                    title: "骨架屏",
+                    content: "瀑布流",
+                )
             }
             list.append(module)
         }

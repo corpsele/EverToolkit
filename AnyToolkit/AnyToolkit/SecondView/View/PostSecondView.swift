@@ -17,6 +17,8 @@ public struct PostSecondView: View {
     
     @EnvironmentObject private var settings: Settings
     
+    @State private var naviHidden = false
+    
     private let sm4 = Sm4Impl()
     
     
@@ -106,6 +108,7 @@ public struct PostSecondView: View {
                 rightAction: {
                     print("right button click")
                 },
+                
             )
             
         }
